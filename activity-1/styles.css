@@ -1,6 +1,6 @@
 body 
 {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -24,13 +24,6 @@ nav li
     display: inline;
     margin-right: 20px;
 }
-
-nav a 
-{
-    text-decoration: none;
-    font-weight: bold;
-}
-
 hr 
 {
     border: 1px solid #24a22a;
