@@ -1,0 +1,69 @@
+body
+{
+    font-family: "Open Sans", sans-serif;
+    color: #555;
+}
+
+body 
+{
+    font-family: "Open Sans", sans-serif;
+    color: #555;
+}
+
+header
+{
+    background-color: aqua;
+    padding: 10px;
+}
+
+h1
+{
+    color: #6103ef;
+}
+
+h2 
+{
+    color: #6103ef;
+}
+
+img
+{
+    height: 150px;
+    text-align: left;
+}
+
+figcaption span
+{
+    font-size: .85em;
+}
+
+p#product-description::first-letter
+{
+    font-size: 1.5em;
+}
+
+a[href]
+{
+    color: #e617ab;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+p#product-description
+{
+    margin: 20px 0 20px 0;
+    text-align: justify;
+}
+
+div.review
+{
+    padding: 10px;
+    background-color: #f3f31b;
+    margin: 20px 0;
+    border: 1px solid #2fd315
+
+}
