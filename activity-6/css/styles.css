@@ -1,0 +1,67 @@
+body 
+{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header 
+{
+    background-color: rgb(198, 233, 233);
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(136, 18, 215);
+}
+
+.messages 
+{
+    height: 300px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(136, 18, 215) rgb(136, 18, 215); 
+    background-color:rgb(198, 233, 233);
+    padding: 30px;
+    margin-bottom: 8px;
+}
+
+.out-message 
+{
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.in-message 
+{
+    padding: 5px;
+    background-color: #77626252;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer 
+{
+    background-color: rgb(198, 233, 233);
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="text"] 
+{
+    width: 58%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+button 
+{
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: rgb(136, 18, 215);
+    color: white;
+}
