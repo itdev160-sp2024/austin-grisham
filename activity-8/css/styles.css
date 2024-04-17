@@ -1,0 +1,126 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #050505;
+    margin: 0;
+    background-color: #b4eba6;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    background-color: #333;
+    border-bottom: solid 3px #f314e7;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+header .header-title {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+header .header-menu {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #ccc;
+    font-size: 0.875rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main #display-content {
+    padding: 20px;
+    background-color: #2cd3e2;
+    border: solid 1px #0aef37;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+
+#modal-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(31, 183, 17, 0.75);
+    z-index: 1000;
+}
+
+#modal-backdrop.visible {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(55, 115, 235, 0.414);
+    z-index: 1000;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    padding: 20px;
+    background-color: #bb08b2ef;
+    border: solid 1px #555;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(16, 23, 159, 0.2);
+    z-index: 99999;
+    width: 500px;
+    max-width: 70vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal.visible {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-content {
+    width: 459px;
+    height: 350px;
+    background-color: #e777c8;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(239, 221, 26, 0.2);
+}
+
+#edit-title {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#edit-content-text {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
